@@ -1,0 +1,10 @@
+# Example fstab
+//hostname/home/tmuchnedy /mnt/home cifs credentials=/root/ims.txt,_netdev,uid=1000 0 0
+//hostname/public /mnt/public cifs credentials=/root/ims.txt,_netdev,uid=1000 0 0
+//hostname/interdepartmental /mnt/ateliers cifs credentials=/root/ims.txt,_netdev,uid=1000 0 0
+//hostname/documentation /mnt/documentation cifs credentials=/root/ims.txt,_netdev,uid=1000 0 0
+//hostname/qms /mnt/qms cifs credentials=/root/ims.txt,_netdev,uid=1000 0 0
+//hostname/departmental /mnt/departmental cifs credentials=/root/ims.txt,_netdev,uid=1000 0 0
+
+# buildreponas
+hostname:/srv        /net/buildreponas              nfs     defaults        0 0
